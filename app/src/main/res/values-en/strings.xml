@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClassNavigator</string>
+    
+    <!-- Navigation -->
+    <string name="nav_schedule">Schedule</string>
+    <string name="nav_history">History</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Schedule Fragment -->
+    <string name="schedule_title">Schedule Search</string>
+    <string name="schedule_empty_title">Start searching for schedule</string>
+    <string name="schedule_empty_subtitle">Click the search button to get started</string>
+    <string name="recent_queries">Recent queries:</string>
+    
+    <!-- Search Panel -->
+    <string name="search_title">Schedule Search</string>
+    <string name="tab_group">Group</string>
+    <string name="tab_teacher">Teacher</string>
+    <string name="tab_date">By Date</string>
+    <string name="hint_group">Group (e.g., збПИЭ-211)</string>
+    <string name="hint_teacher">Teacher (Full Name or ID)</string>
+    <string name="hint_date">Date (YYYY-MM-DD)</string>
+    <string name="hint_date_group">Group</string>
+    <string name="week_type">Week type:</string>
+    <string name="numerator">Numerator</string>
+    <string name="denominator">Denominator</string>
+    <string name="button_search">Find Schedule</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="language">Language</string>
+    <string name="russian">Russian</string>
+    <string name="english">English</string>
+    <string name="data">Data</string>
+    <string name="clear_history">Clear search history</string>
+    <string name="about_app">About</string>
+    <string name="version">Version</string>
+    <string name="feedback">Feedback</string>
+    
+    <!-- Dialogs -->
+    <string name="clear_history_title">Clear History</string>
+    <string name="clear_history_message">Are you sure you want to clear all search history? This action cannot be undone.</string>
+    <string name="clear">Clear</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Messages -->
+    <string name="history_cleared">History cleared</string>
+    <string name="error_clearing_history">Error clearing history</string>
+    <string name="feedback_development">Feedback feature in development</string>
+    
+    <!-- Start Fragment -->
+    <string name="welcome_title">Welcome to ClassNavigator!</string>
+    <string name="welcome_subtitle">Find class schedules quickly and easily</string>
+    <string name="feature_search">✨ Search by group or teacher</string>
+    <string name="feature_weeks">📅 Numerator and denominator support</string>
+    <string name="feature_history">💾 Search history</string>
+    <string name="feature_notifications">🔔 Class notifications</string>
+    <string name="button_find_schedule">Find Schedule</string>
+    <string name="button_view_history">Search History</string>
+    <string name="button_settings">Settings</string>
+</resources> 

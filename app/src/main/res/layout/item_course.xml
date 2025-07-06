@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="6dp"
+    card_view:cardBackgroundColor="#ffffff"
+    android:layout_marginHorizontal="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <!-- Верх: День недели и дата -->
+        <TextView
+            android:id="@+id/textWeekDayDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Понедельник, 01.07.2024"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#007bff"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Название предмета и тип занятия -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="6dp">
+            <TextView
+                android:id="@+id/textCourseName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Название предмета"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#222222"/>
+            <TextView
+                android:id="@+id/textLessonType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Лекция"
+                android:textSize="14sp"
+                android:textColor="#007bff"
+                android:background="#e3f0ff"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:backgroundTint="#e3f0ff"
+                android:gravity="center"
+                android:drawablePadding="4dp"/>
+        </LinearLayout>
+
+        <!-- Преподаватель -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@android:drawable/ic_menu_info_details"
+                android:tint="#007bff"
+                android:layout_marginEnd="4dp"/>
+            <TextView
+                android:id="@+id/textTeacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Преподаватель: Иванов И.И."
+                android:textSize="15sp"
+                android:textColor="#222222"/>
+        </LinearLayout>
+
+        <!-- Аудитория -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@android:drawable/ic_menu_compass"
+                android:tint="#007bff"
+                android:layout_marginEnd="4dp"/>
+            <TextView
+                android:id="@+id/textClassroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Аудитория: 101"
+                android:textSize="15sp"
+                android:textColor="#222222"/>
+        </LinearLayout>
+
+        <!-- Время -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@android:drawable/ic_menu_my_calendar"
+                android:tint="#007bff"
+                android:layout_marginEnd="4dp"/>
+            <TextView
+                android:id="@+id/textTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:00 - 09:35"
+                android:textSize="15sp"
+                android:textColor="#222222"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView> 

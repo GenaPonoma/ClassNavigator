@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/scheduleMainFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.classnavigator.ui.start.StartFragment"
+        android:label="Стартовый экран"
+        tools:layout="@layout/fragment_start">
+        
+        <action
+            android:id="@+id/action_startFragment_to_scheduleMainFragment"
+            app:destination="@id/scheduleMainFragment" />
+            
+        <action
+            android:id="@+id/action_startFragment_to_navigation_history"
+            app:destination="@id/navigation_history" />
+            
+        <action
+            android:id="@+id/action_startFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+            
+    </fragment>
+
+    <fragment
+        android:id="@+id/scheduleMainFragment"
+        android:name="com.example.classnavigator.ui.schedule.ScheduleMainFragment"
+        android:label="Расписание"
+        tools:layout="@layout/fragment_schedule_main" />
+
+    <fragment
+        android:id="@+id/lessonDetailFragment"
+        android:name="com.example.classnavigator.ui.schedule.LessonDetailFragment"
+        android:label="Детали пары"
+        tools:layout="@layout/fragment_lesson_detail" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.classnavigator.ui.settings.SettingsFragment"
+        android:label="Настройки"
+        tools:layout="@layout/fragment_settings" />
+
+
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.classnavigator.ui.history.HistoryFragment"
+        android:label="История"
+        tools:layout="@layout/fragment_history">
+        
+        <action
+            android:id="@+id/action_navigation_history_to_lessonDetailFragment"
+            app:destination="@id/lessonDetailFragment" />
+            
+    </fragment>
+
+</navigation>

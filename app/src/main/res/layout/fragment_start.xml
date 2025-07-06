@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Иконка приложения -->
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@android:drawable/ic_menu_my_calendar"
+        app:tint="#ffffff"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Заголовок -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Подзаголовок -->
+    <TextView
+        android:id="@+id/textViewSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_subtitle"
+        android:textSize="16sp"
+        android:textColor="#e0e0e0"
+        android:gravity="center"
+        android:layout_marginBottom="48dp"/>
+
+    <!-- Функции приложения -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="48dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feature_search"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feature_weeks"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feature_history"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feature_notifications"
+            android:textSize="14sp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <!-- Кнопка поиска расписания -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonFindSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/button_find_schedule"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:icon="@android:drawable/ic_menu_search"
+        android:iconTint="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:textColor="#007bff"
+        app:cornerRadius="28dp"
+        app:elevation="8dp"/>
+
+    <!-- Кнопка истории -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/button_view_history"
+        android:textSize="16sp"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="#ffffff"
+        app:cornerRadius="24dp"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+    <!-- Кнопка настроек -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSettings"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/button_settings"
+        android:textSize="16sp"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="#ffffff"
+        app:cornerRadius="24dp"
+        android:layout_marginTop="8dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+</LinearLayout> 

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Class Navigator</string>
+    
+    <!-- Navigation -->
+    <string name="nav_schedule">Расписание</string>
+    <string name="nav_history">История</string>
+    <string name="nav_notifications">Уведомления</string>
+    <string name="nav_settings">Настройки</string>
+    
+    <!-- Schedule Fragment -->
+    <string name="schedule_title">Поиск расписания</string>
+    <string name="schedule_empty_title">Начните поиск расписания</string>
+    <string name="schedule_empty_subtitle">Нажмите кнопку поиска для начала работы</string>
+    <string name="recent_queries">Недавние запросы:</string>
+    
+    <!-- Search Panel -->
+    <string name="search_title">Поиск расписания</string>
+    <string name="tab_group">Группа</string>
+    <string name="tab_teacher">Преподаватель</string>
+    <string name="tab_date">По дате</string>
+    <string name="hint_group">Группа (например, збПИЭ-211)</string>
+    <string name="hint_teacher">Преподаватель (ФИО или ID)</string>
+    <string name="hint_date">Дата (YYYY-MM-DD)</string>
+    <string name="hint_date_group">Группа</string>
+    <string name="week_type">Тип недели:</string>
+    <string name="numerator">Числитель</string>
+    <string name="denominator">Знаменатель</string>
+    <string name="button_search">Найти расписание</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="language">Язык</string>
+    <string name="russian">Русский</string>
+    <string name="english">English</string>
+    <string name="data">Данные</string>
+    <string name="clear_history">Очистить историю поиска</string>
+    <string name="about_app">О приложении</string>
+    <string name="version">Версия</string>
+    <string name="feedback">Обратная связь</string>
+    
+    <!-- Dialogs -->
+    <string name="clear_history_title">Очистить историю</string>
+    <string name="clear_history_message">Вы уверены, что хотите очистить всю историю поиска? Это действие нельзя отменить.</string>
+    <string name="clear">Очистить</string>
+    <string name="cancel">Отмена</string>
+    
+    <!-- Messages -->
+    <string name="history_cleared">История очищена</string>
+    <string name="error_clearing_history">Ошибка очистки истории</string>
+    <string name="feedback_development">Функция обратной связи в разработке</string>
+    
+    <!-- Start Fragment -->
+    <string name="welcome_title">Добро пожаловать в ClassNavigator!</string>
+    <string name="welcome_subtitle">Найдите расписание занятий быстро и удобно</string>
+    <string name="feature_search">✨ Поиск по группе или преподавателю</string>
+    <string name="feature_weeks">📅 Поддержка числителя и знаменателя</string>
+    <string name="feature_history">💾 История поиска</string>
+    <string name="feature_notifications">🔔 Уведомления о занятиях</string>
+    <string name="button_find_schedule">Найти расписание</string>
+    <string name="button_view_history">История поиска</string>
+    <string name="button_settings">Настройки</string>
+</resources>
